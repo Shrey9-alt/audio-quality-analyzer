@@ -74,14 +74,6 @@ python src/record.py 6 data/bg_noise.wav
 
 ---
 
-## 🖥 Screenshots
-
-| Terminal Run | Before | After |
-|:--:|:--:|:--:|
-| ![Terminal Output](screenshots/terminal_run.png) | ![Before](screenshots/wave_before.png) | ![After](screenshots/wave_after.png) |
-
----
-
 ## 📊 Metrics Example
 
 | Metric | Before | After | Improvement |
@@ -102,19 +94,10 @@ python src/record.py 6 data/bg_noise.wav
 
 ---
 
-## 🧾 Resume Summary
-
-**Audio Quality Analyzer | Python · CoreAudio · AVFoundation · Librosa**  
-Built a lightweight pipeline to record, mix, denoise, and analyze audio clips. Computed SNR/RMS metrics, visualized waveform fidelity, and logged results to CSV for regression testing — mirroring AirPods feature-testing workflows.
-
----
-
 ## 👨‍💻 Author
 
 **Shreyansh Patel**  
-M.S. in Computer Science, Cleveland State University  
-📍 Cleveland, OH  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) · 💻 [GitHub](https://github.com/yourusername)
+M.S. in Computer Science, Cleveland State University
 
 ---
 
