@@ -62,6 +62,22 @@ python src/record.py 6 data/bg_noise.wav
 
 ---
 
+## 📁 Project Structure
+```
+audio-quality-analyzer/
+├─ data/                     # Audio samples (clean + noise)
+├─ outputs/                  # Generated files (wav, png, csv)
+├─ src/                      # Source code scripts
+│  ├─ record.py              # Records audio input
+│  ├─ mix_and_denoise.py     # Mixes and denoises signals
+│  ├─ metrics.py             # Calculates SNR, RMS, and Peak
+│  └─ plot.py                # Plots before/after waveforms
+├─ run.sh                    # One-click runner script
+└─ README.md                 # Project documentation
+```
+
+---
+
 ## 🧪 Example Outputs
 
 | File | Description |
